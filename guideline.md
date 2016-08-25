@@ -7,7 +7,7 @@
 
 ## Gitflow工作流
 ![](pic/gitflow.jpg)
-上图为Gitflow工作流的整体流程图
+图1: Gitflow工作流的整体流程图
 
 ###下面以_"张三"_和_"李四"_两个开发者的操作为例,来看一下Gitflow工作流的具体操作：
 
@@ -69,3 +69,7 @@
  ![](pic/release1_merge_develop2.jpg)
  26. _"张三"_将分支**[release-1]**删除(可选)
  ![](pic/release1_delete.jpg)
+
+
+> 参考：
+> 1. ![](http://nvie.com/posts/a-successful-git-branching-model/)
