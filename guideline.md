@@ -12,28 +12,28 @@
 ### Gitflow工作流常用分支
 * 主要分支(长期分支)
  * master
- 1. 该分支的代码处于随时可发布到生产环境的状态
- 2. 不能在该分支上做修改，只能从其他分支合并
+     1. 该分支的代码处于随时可发布到生产环境的状态
+     2. 不能在该分支上做修改，只能从其他分支合并
  * develop
- 1. 该分支的代码处于最新的状态
- 2. 该分支从其他“辅助分支”合并代码
+     1. 该分支的代码处于最新的状态
+     2. 该分支从其他“辅助分支”合并代码
 
 * 辅助分支(特性分支)
  * release
- 1. 该类分支用于产品新版本的发布
- 2. 从develop分支发起
- 3. 代码必需合并至master分支和develop分支
- 4. 一般命名为: release-\*或者release/\*
+     1. 该类分支用于产品新版本的发布
+     2. 从develop分支发起
+     3. 代码必需合并至master分支和develop分支
+     4. 一般命名为: release-\*或者release/\*
  * feature
- 1. 该类分支用于开发新功能
- 2. 从develop分支发起
- 3. 代码必需合并至develop分支
- 3. 可命名为除master，develop，release*，hotfix*之外的任何名称
+     1. 该类分支用于开发新功能
+     2. 从develop分支发起
+     3. 代码必需合并至develop分支
+     4. 可命名为除master，develop，release*，hotfix*之外的任何名称
  * hotfix
- 1. 该类分支用于线上产品问题解决
- 2. 从master分支发起
- 3. 代码必需合并至master分支和develop(**若release分支存在，则合并至release**)分支
- 4. 一般命名为: hotfix-\*或者hotfix/\*
+     1. 该类分支用于线上产品问题解决
+     2. 从master分支发起
+     3. 代码必需合并至master分支和develop(**若release分支存在，则合并至release**)分支
+     4. 一般命名为: hotfix-\*或者hotfix/\*
 
 ###下面以_"张三"_和_"李四"_两个开发者的操作为例,来看一下Gitflow工作流的具体操作：
 
