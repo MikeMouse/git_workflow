@@ -6,3 +6,4 @@
 4. Fork工作流
 
 ## Gitflow工作流
+![](../pic/gitflow.png)
