@@ -115,13 +115,11 @@
 #### Command Line
 ![](pic/gitflow/git-flow-commands.png)
 
- 1. 初始化
-
+ 1. 初始化  
     ![](pic/gitflow/git_flow_init_1.jpg)
  2. 开始feature
     ![](pic/gitflow/git_flow_feature_start.jpg)
- 3. 完成功能
-
+ 3. 完成功能  
     ![](pic/gitflow/git_flow_feature_commit.jpg)
  4. 完成feature
     ![](pic/gitflow/git_flow_feature_finish.jpg)
