@@ -96,15 +96,27 @@
  26. _"张三"_将分支**[release-1]**删除(可选)
  ![](pic/gitflow/release1_delete.jpg)
 
+### Gitflow GUI(SourceTree)
+使用前，先将**选项**中的_"合并时不使用快进方式，总是创建提交"_勾选(同git merge --no-ff中的--no-ff参数的作用)
+![](pic/gitflow/source_tree_config1.jpg)
+
+ 1. 初始化
+    ![](pic/gitflow/source_tree_1.jpg)
+    ![](pic/gitflow/source_tree_2.jpg)
+ 2. 开始feature
+    ![](pic/gitflow/source_tree_3.jpg)
+    ![](pic/gitflow/source_tree_4.jpg)
+ 3. 完成功能
+    ![](pic/gitflow/source_tree_5.jpg)
+ 4. 完成feature
+    ![](pic/gitflow/source_tree_6.jpg)
+
 ### Gitflow Command Line
-#### Gitflow命令
 ![](pic/gitflow/git-flow-commands.png)
 
  1. 初始化
-    git flow init
     ![](pic/gitflow/git_flow_init_1.jpg)
  2. 开始feature
-    git flow feature start _featureBranchName_
     ![](pic/gitflow/git_flow_feature_start.jpg)
  3. 完成功能
     ![](pic/gitflow/git_flow_feature_commit.jpg)
